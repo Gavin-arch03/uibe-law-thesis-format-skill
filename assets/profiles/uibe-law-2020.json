@@ -1,0 +1,123 @@
+{
+  "id": "uibe-law-2020",
+  "name": "对外经济贸易大学法学院学位论文（2020 修订）",
+  "applies_to": "中文法学学位论文（博士 / 硕士 / 本科）",
+  "priority_note": "学院规定优先于学校《研究生学位论文写作规范》。本 profile 已按学院口径覆盖所有冲突项。",
+  "sources": [
+    "对外经济贸易大学研究生学位论文写作规范（2020 修订）",
+    "对外经济贸易大学法学院学位论文脚注及参考文献体例（2020 修订），2020-01-01 施行",
+    "对外经济贸易大学法学院硕士学位论文格式示例（2020.01）"
+  ],
+  "page": {
+    "size_mm": [210, 297],
+    "margins_cm": { "top": 2.8, "bottom": 2.5, "left": 3.1, "right": 3.0 },
+    "margins_note": "实测法学院格式示例 15 个正文页：上 2.6-2.9cm、下 2.53-2.58cm、左 3.17cm、右 2.96-3.17cm，正文区高 245.5mm。学校规范文本的上下 3.6cm 按 3.6+3.6 只容纳 225mm，装不下实测内容，故不采用。",
+    "gutter_cm": 0,
+    "header": false,
+    "tolerance_cm": 0.25
+  },
+  "page_number": {
+    "font": "Times New Roman",
+    "size_pt": 9,
+    "position": "footer_center",
+    "front_matter": "roman",
+    "body": "arabic_restart_at_1",
+    "requires_section_break": true
+  },
+  "styles": {
+    "chapter_title": { "font_cn": "黑体", "size_pt": 16, "bold": true, "align": "center", "line_rule": "multiple_4" },
+    "section_1": { "font_cn": "黑体", "size_pt": 14, "bold": false, "line_rule": "exact_20", "space_before_lines": 0.5, "space_after_lines": 0.5 },
+    "section_2": { "font_cn": "黑体", "size_pt": 12, "bold": false, "line_rule": "exact_20", "space_before_lines": 0.5, "space_after_lines": 0.5, "first_line_indent_chars": 2 },
+    "body": { "font_cn": "宋体", "font_en": "Times New Roman", "size_pt": 12, "line_rule": "exact_20", "first_line_indent_chars": 2, "align": "justify", "space_before_pt": 0, "space_after_pt": 0 },
+    "abstract_title": { "font_cn": "黑体", "size_pt": 16, "bold": true, "align": "center", "text": "摘　要", "line_rule": "multiple_4" },
+    "abstract_en_title": { "font_en": "Arial", "size_pt": 16, "bold": true, "align": "center", "text": "ABSTRACT", "line_rule": "multiple_4" },
+    "keywords_label": { "font_cn": "黑体", "size_pt": 12 },
+    "keywords_body": { "font_cn": "宋体", "size_pt": 12 },
+    "toc_title": { "font_cn": "黑体", "size_pt": 16, "bold": true, "align": "center", "text": "目　录", "line_rule": "multiple_4" },
+    "toc_chapter": { "font_cn": "宋体", "size_pt": 14 },
+    "toc_section": { "font_cn": "宋体", "size_pt": 12 },
+    "reference_title": { "font_cn": "黑体", "size_pt": 16, "bold": true, "align": "center", "line_rule": "multiple_4" },
+    "reference_item": { "font_cn": "宋体", "size_pt": 12, "line_rule": "exact_20", "hanging_indent": true },
+    "footnote": { "font_cn": "宋体", "font_en": "Times New Roman", "size_pt": 9, "line_rule": "exact_12" },
+    "figure_caption": { "font_cn": "宋体", "size_pt": 10.5, "align": "center", "position": "below_figure", "gap_chars": 2 },
+    "table_caption": { "font_cn": "宋体", "size_pt": 10.5, "align": "center", "position": "above_table", "gap_chars": 2 },
+    "spine": { "font_cn": "仿宋", "size_pt": 14 }
+  },
+  "parts_order": [
+    "封面", "扉页", "学位论文原创性声明", "学位论文版权使用授权书",
+    "中文摘要", "英文摘要", "目录", "正文", "参考文献", "附录", "致谢",
+    "个人简历在校期间发表的学术论文及研究成果"
+  ],
+  "toc": {
+    "max_depth": 3,
+    "titles": {
+      "chapter": "第N章 ××",
+      "section_1": "N.N ××",
+      "section_2": "N.N.N ××",
+      "level4": "（一）", "level5": "1.", "level6": "（1）"
+    },
+    "forbid_level4_numbering": "2.2.2.1",
+    "no_punctuation_in_headings": true,
+    "min_title_chars": 6,
+    "one_page_multi_heading_limit": 2
+  },
+  "footnote": {
+    "font_cn": "宋体",
+    "size_pt": 9,
+    "line_rule": "exact_12",
+    "numbering": "arabic_continuous",
+    "symbol_content_gap": "one_space",
+    "punct_before_marker": true,
+    "forbid_in_headings": true,
+    "direct_quote_no_cite_word": true,
+    "indirect_quote_prefix": "参见",
+    "secondary_source_prefix": "转引自",
+    "no_op_cit": true,
+    "page_required_types": ["专著", "期刊论文", "译著", "集刊论文集", "学位论文", "辞书"],
+    "journal_no_volume": true,
+    "web_no_site_name": true
+  },
+  "reference_list": {
+    "allowed_types": ["专著", "论文", "学位论文"],
+    "forbid_page_numbers": true,
+    "groups": ["一、中文著作", "二、中文论文", "三、中文学位论文", "四、英文著作", "五、英文论文"],
+    "number_bracket": "【】",
+    "numbering": "continuous_across_groups",
+    "sort_within_group": "year_desc",
+    "min_total": 30,
+    "min_foreign": 5,
+    "font_same_as_body": true
+  },
+  "content": {
+    "conclusion_has_chapter_number": true,
+    "conclusion_chapter_title": "第N章 结论",
+    "conclusion_no_level2": true,
+    "chapter_new_page": true,
+    "law_full_name_first": true,
+    "article_numbering": "arabic",
+    "keyword_separator_cn": "，",
+    "keyword_count": [3, 5],
+    "abstract_chars_master": [500, 1000],
+    "abstract_chars_phd": [2000, 3000],
+    "abstract_no_figures": true,
+    "abstract_paragraphs": [2, 3],
+    "abstract_forbid_inventory": true,
+    "body_chars_master_min": 25000,
+    "body_chars_phd_min": 100000,
+    "cite_any_example": true
+  },
+  "known_conflicts": [
+    {
+      "item": "参考文献序号括号",
+      "体例文件": "【1】中文方头括号",
+      "格式示例": "[1] 英文方括号",
+      "resolution": "采用【】。理由：《脚注及参考文献体例》是专管体例的文件且声明严格执行；《格式示例》首页自述“主要解决基本格式问题”。"
+    },
+    {
+      "item": "参考文献类内排序",
+      "体例文件": "时间降序",
+      "格式示例": "时间升序（示例中 2011 → 2014）",
+      "resolution": "采用时间降序，理由同上。全文不得混用方向。"
+    }
+  ]
+}
